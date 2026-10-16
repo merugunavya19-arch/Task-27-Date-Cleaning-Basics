@@ -1,0 +1,5 @@
+sale_id,original_date,issue_type,recommended_action
+S009,31/09/2024,Invalid date or unsupported format,Review source value and correct manually
+S013,13/13/2024,Invalid date or unsupported format,Review source value and correct manually
+S014,,Missing date,Review source value and correct manually
+S019,"April 31, 2025",Invalid date or unsupported format,Review source value and correct manually

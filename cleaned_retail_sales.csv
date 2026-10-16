@@ -1,0 +1,21 @@
+sale_id,sale_date,customer_name,category,sales_amount,clean_sale_date,date_status
+S001,2024-01-15,Aarav Sharma,Electronics,1299.0,2024-01-15,Valid
+S002,15/02/2024,Meera Patel,Furniture,450.5,2024-02-15,Valid
+S003,03-20-2024,Rohan Kumar,Office Supplies,89.99,2024-03-20,Valid
+S004,"April 5, 2024",Ananya Singh,Electronics,799.0,2024-04-05,Valid
+S005,2024/05/18,Vikram Rao,Furniture,325.75,2024-05-18,Valid
+S006,06.22.2024,Diya Nair,Office Supplies,55.0,2024-06-22,Valid
+S007,July 1 2024,Karan Shah,Electronics,149.99,2024-07-01,Valid
+S008,2024-08-30,Sneha Iyer,Furniture,680.0,2024-08-30,Valid
+S009,31/09/2024,Rahul Reddy,Office Supplies,42.5,,Issue
+S010,2024/10/12,Priya Desai,Electronics,999.0,2024-10-12,Valid
+S011,"November 3, 2024",Aditya Verma,Furniture,210.25,2024-11-03,Valid
+S012,2024-02-29,Kavya Menon,Office Supplies,75.0,2024-02-29,Valid
+S013,13/13/2024,Sameer Khan,Electronics,250.0,,Issue
+S014,,Neha Joshi,Furniture,390.0,,Issue
+S015,2024-12-21,Amit Gupta,Office Supplies,65.4,2024-12-21,Valid
+S016,"Jan 7, 2025",Isha Rao,Electronics,525.0,2025-01-07,Valid
+S017,2025/02/14,Nikhil Das,Furniture,275.25,2025-02-14,Valid
+S018,30-03-2025,Pooja Shah,Office Supplies,33.99,2025-03-30,Valid
+S019,"April 31, 2025",Vivek Nair,Electronics,875.0,,Issue
+S020,2025-05-26,Riya Mehta,Furniture,410.0,2025-05-26,Valid
