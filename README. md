@@ -1,0 +1,126 @@
+# Task-27-Date-Cleaning-Basics
+
+Day 27 of 45 â€” Data Analytics Internship
+
+Organization: Veda Technology
+Internship: Data Analytics Intern
+GitHub Repository Name: Date-Cleaning-Basics
+
+Objective
+
+Standardize inconsistent date formats, identify invalid or missing dates, and create a reliable cleaned date column for analysis.
+
+Tools Used
+
+â€¢
+Python
+
+â€¢
+pandas
+
+â€¢
+Microsoft Excel
+
+Project Files
+
+â€¢
+retail_sales_dataset.csv â€” Original retail sales dataset containing inconsistent dates
+
+â€¢
+cleaned_retail_sales.csv â€” Dataset with standardized dates and date-status information
+
+â€¢
+date_cleaning.py â€” Reusable Python date-cleaning script
+
+â€¢
+date_issue_log.csv â€” CSV log of invalid and missing dates
+
+â€¢
+date_issue_log.xlsx â€” Excel issue log and summary workbook
+
+Date Cleaning Operations
+
+The project performs the following operations:
+
+â€¢
+Reads retail sales records
+
+â€¢
+Accepts multiple date formats
+
+â€¢
+Converts valid dates to YYYY-MM-DD
+
+â€¢
+Identifies missing date values
+
+â€¢
+Identifies invalid dates such as impossible calendar dates
+
+â€¢
+Adds a date-status field
+
+â€¢
+Creates a separate issue log for review
+
+Dataset Summary
+
+â€¢
+Total records: 20
+
+â€¢
+Valid dates: 16
+
+â€¢
+Date issues identified: 4
+
+â€¢
+Output date format: YYYY-MM-DD
+
+Excel Workbook Sheets
+
+The date_issue_log.xlsx workbook contains:
+
+â€¢
+Issue_Log â€” Invalid and missing date records with recommended actions
+
+â€¢
+Summary â€” Record counts, parser approach, and generated files
+
+How to Run
+
+1.
+Download all project files into the same folder.
+
+2.
+Make sure Python and pandas are installed.
+
+3.
+Open a terminal in the project folder.
+
+4.
+Run:
+
+Bash
+
+
+python date_cleaning.py
+
+
+
+1.
+The script reads retail_sales_dataset.csv.
+
+2.
+It creates or updates cleaned_retail_sales.csv and date_issue_log.csv.
+
+3.
+Open date_issue_log.xlsx to review the issue summary.
+
+Date Quality Notes
+
+The input dataset intentionally includes different date formats, a missing date, and invalid dates such as September 31 and April 31. These records are not silently changed; they are marked as issues so they can be reviewed and corrected from the original source.
+
+Internship
+
+Completed as part of the Veda Technology Data Analytics Internship.
